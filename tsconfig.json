@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./public/bundled",
+        "target": "ES6",
+        "module": "ES2020",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "plugins": [
+            {
+              "name": "ts-lit-plugin"
+            }
+          ]
+    }
+}
